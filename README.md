@@ -1,10 +1,6 @@
-##EE107FinalProject
-
+# EE107FinalProject
 This project investigates digital communications by sending an image over a channel with noise, similar to an actual communication system (e.g. cell phones, HDTV). The system is implemented in Matlab.
-
-
-###Communication System
-
+## Communication System
 We construct a model of a communications system that transmits an image from one place to another, much like digital television (HDTV). 
 It is very common in image processing to break up the image into 8 pixel by 8 pixel blocks and take the discrete cosine transform
 (DCT) of each block – we will provide more information on the DCT later in the description. The DCT frequency information for each block can then be coded, modulated, and transmitted, as will be explained now.
@@ -19,8 +15,7 @@ Modulation is the process of transforming each sample of the signal (typically c
 
 Noise is also added to the waveforms. Once they reach the end of the channel, called the receiver, one must try to undo all the distortion caused by the channel. Then the waveforms must be detected and demodulated, or mapped from the analog domain into decoded symbols;
 in this case, just the 2-D discrete-time signal we started with.
-
-2.1 System Structure
+### System Structure
 
 A block diagram of the communications system is shown in the figure below. 
 
