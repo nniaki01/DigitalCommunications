@@ -18,6 +18,7 @@ in this case, just the 2-D discrete-time signal we started with.
 ### System Structure
 
 A block diagram of the communications system is shown in the figure below. 
+![screen shot 2018-08-10 at 7 01 21 pm](https://user-images.githubusercontent.com/26287301/43984643-daec735a-9ccf-11e8-801e-79e1cfe872db.png)
 
 The system consists of the following blocks:
 
