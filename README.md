@@ -34,12 +34,14 @@ impulse response in the implementation section.
 
 • Noise: At the receiving end, noise (such as circuit thermal noise, interference) is added to the received signal. Therefore the received signal may be written as 
 
-.center[r(t) = s(t) * h(t) + n(t) (1)]
+<div style="text-align:center"><span style="color:red; font-family:Georgia; font-size:2em;">The goal of the Women’s Enterprise Action Loan Fund, (WEALF): helping women business owners become financially self-sufficient.</span></div>
+
+->r(t) = s(t) * h(t) + n(t) (1)<-
 
 where * is the convolution operator, s(t) is the modulated signal and n(t) is the additive noise. Often the noise is assumed to be white.
 
 • Matched filter: The receiver attempts to recover the transmitted signal that has been filtered by the channel and corrupted by additive noise. A block in the receiver that deals with the effect of noise is the received pulse shaping filter, which is matched to the transmit pulse shaping filter as
 
-.center[g_R(t) = g_T (T − t). (2)]
+->g_R(t) = g_T (T − t). (2)<-
 
 The matched filter is the best receive filter to deal with the effect of white noise as it results in the highest SNR at the sampling point later. Note that at the output of the
