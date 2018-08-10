@@ -19,8 +19,9 @@ in this case, just the 2-D discrete-time signal we started with.
 
 A block diagram of the communications system is shown in the figure below. 
 <p align="center">
-<![screen shot 2018-08-10 at 7 01 21 pm](https://user-images.githubusercontent.com/26287301/43984643-daec735a-9ccf-11e8-801e-79e1cfe872db.png)>
+  <img src="https://user-images.githubusercontent.com/26287301/43984643-daec735a-9ccf-11e8-801e-79e1cfe872db.png">
 </p>
+
 The system consists of the following blocks:
 
 • Image pre-processing: This block includes the transformation and quantization of an image. We break the image into 8 by 8 blocks and perform the DCT on each block. Then we quantize the DCT coefficient values (which are continuous) into 256 levels, using 8-bit unsigned binary numbers.
@@ -34,14 +35,16 @@ impulse response in the implementation section.
 
 • Noise: At the receiving end, noise (such as circuit thermal noise, interference) is added to the received signal. Therefore the received signal may be written as 
 
-<div style="text-align:center"><span style="color:red; font-family:Georgia; font-size:2em;">The goal of the Women’s Enterprise Action Loan Fund, (WEALF): helping women business owners become financially self-sufficient.</span></div>
-
-->r(t) = s(t) * h(t) + n(t) (1)<-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26287301/43985200-8ec83ec4-9cd3-11e8-91fe-3b35c88d9917.gif">
+</p>
 
 where * is the convolution operator, s(t) is the modulated signal and n(t) is the additive noise. Often the noise is assumed to be white.
 
 • Matched filter: The receiver attempts to recover the transmitted signal that has been filtered by the channel and corrupted by additive noise. A block in the receiver that deals with the effect of noise is the received pulse shaping filter, which is matched to the transmit pulse shaping filter as
 
-->g_R(t) = g_T (T − t). (2)<-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26287301/43985255-eea00b10-9cd3-11e8-8ec7-7a72bce66479.gif">
+</p>
 
 The matched filter is the best receive filter to deal with the effect of white noise as it results in the highest SNR at the sampling point later. Note that at the output of the
