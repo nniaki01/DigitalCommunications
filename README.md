@@ -1,9 +1,9 @@
-EE107FinalProject
+##EE107FinalProject
 
 This project investigates digital communications by sending an image over a channel with noise, similar to an actual communication system (e.g. cell phones, HDTV). The system is implemented in Matlab.
 
 
-Communication System
+###Communication System
 
 We construct a model of a communications system that transmits an image from one place to another, much like digital television (HDTV). 
 It is very common in image processing to break up the image into 8 pixel by 8 pixel blocks and take the discrete cosine transform
