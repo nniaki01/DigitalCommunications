@@ -36,7 +36,7 @@ impulse response in the implementation section.
 • Noise: At the receiving end, noise (such as circuit thermal noise, interference) is added to the received signal. Therefore the received signal may be written as 
 
 <p align="center">
-  <a href="https://www.codecogs.com/eqnedit.php?latex=r(t)&space;=&space;s(t)&space;\ast&space;h(t)&space;&plus;&space;n(t)"    target="_blank"><img src="https://latex.codecogs.com/gif.latex?r(t)&space;=&space;s(t)&space;\ast&space;h(t)&space;&plus;&space;n(t)" title="r(t) = s(t) \ast h(t) + n(t)" /></a>
+  <a href="https://www.codecogs.com/eqnedit.php?latex=r(t)&space;=&space;s(t)&space;\ast&space;h(t)&space;&plus;&space;n(t)\quad&space;(1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r(t)&space;=&space;s(t)&space;\ast&space;h(t)&space;&plus;&space;n(t)\quad&space;(1)" title="r(t) = s(t) \ast h(t) + n(t)\quad (1)" /></a>
 </p>
 
 where * is the convolution operator, s(t) is the modulated signal and n(t) is the additive noise. Often the noise is assumed to be white.
