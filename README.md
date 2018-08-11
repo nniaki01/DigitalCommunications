@@ -44,7 +44,7 @@ where * is the convolution operator, s(t) is the modulated signal and n(t) is th
 • Matched filter: The receiver attempts to recover the transmitted signal that has been filtered by the channel and corrupted by additive noise. A block in the receiver that deals with the effect of noise is the received pulse shaping filter, which is matched to the transmit pulse shaping filter as
 
 <p align="center">
-  <a href="https://www.codecogs.com/eqnedit.php?latex=g_R(t)=g_T(T-t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g_R(t)=g_T(T-t)" title="g_R(t)=g_T(T-t)" /></a>
+  <a href="https://www.codecogs.com/eqnedit.php?latex=g_R(t)=g_T(T-t)\quad&space;(2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g_R(t)=g_T(T-t)\quad&space;(2)" title="g_R(t)=g_T(T-t)\quad (2)" /></a>
 </p>
 
 The matched filter is the best receive filter to deal with the effect of white noise as it results in the highest SNR at the sampling point later. Note that at the output of the matched filter, the overall pulse shape is the combination of the transmit and receive pulse shaping filters. This is the reason for using a SRRC pulse shaping filter at the transmitter, since after combining with the receive matched filter, the overall pulse shape is a raised-cosine pulse.
