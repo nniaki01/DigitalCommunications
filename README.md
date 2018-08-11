@@ -121,7 +121,7 @@ We apply additive Gaussian random noise with a specific noise power to the outpu
 
 ### Matched Filter
 
-The matched filter is designed to match to the transmit pulse shaping filter as mentioned earlier. For each
+The matched filter is designed to match to the transmit pulse shaping filter as in (2). For each
 of the two given pulse shaping functions, implement the impulse response of this matched filter in the same way as you construct the pulse shaping function.
 
 ### Equalizer
