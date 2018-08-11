@@ -162,7 +162,7 @@ Invert the DCT blocks using blkproc and rescale the resulting image using the in
 ## Effect of the channel
 We also try two other channels with the impulse response given below. These are actual wireless channel models used in designing cellular
 systems. An outdoor channel is given as
-<p \align="center">
+<p align="center">
   <a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;h_1[n]&space;=&space;0.5ï¿½\delta[n]&space;&plus;&space;\deltaï¿½[n-&space;1]&space;&plus;&space;0.63ï¿½\delta[n-3]&space;&plus;&space;0.25\deltaï¿½[n-8]&space;&plus;&space;0.16ï¿½\delta[n-12]&space;&plus;&space;0.1ï¿½\delta[n-&space;25]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;h_1[n]&space;=&space;0.5ï¿½\delta[n]&space;&plus;&space;\deltaï¿½[n-&space;1]&space;&plus;&space;0.63ï¿½\delta[n-3]&space;&plus;&space;0.25\deltaï¿½[n-8]&space;&plus;&space;0.16ï¿½\delta[n-12]&space;&plus;&space;0.1ï¿½\delta[n-&space;25]" title="\small h_1[n] = 0.5ï¿½\delta[n] + \deltaï¿½[n- 1] + 0.63ï¿½\delta[n-3] + 0.25\deltaï¿½[n-8] + 0.16ï¿½\delta[n-12] + 0.1ï¿½\delta[n- 25]" /></a>
 </p>
 and an indoor channel as
