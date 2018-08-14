@@ -1,5 +1,6 @@
-- To only see the output image, run GetRXImage.m
-- To see eye diagrams, impulse responses, etc., along with the final output, run GetEverything.m
-- The function names are self explanatory with respect to the various system modules.
-- While choosing N, take into account the dimensions of the input image.
-- dummy_Pe and Pe_Analysis are for performance analyses of different pulse shapes and equalizers with the error probability as the metric.
+- This guide corresponds to the MATLAB scripts in the Code folder!
+--- To only see the output image, run GetRXImage.m
+--- To see eye diagrams, impulse responses, etc., along with the final output, run GetEverything.m
+--- The function names are self explanatory with respect to the various system modules.
+--- While choosing N, take into account the dimensions of the input image.
+--- dummy_Pe and Pe_Analysis are for performance analyses of different pulse shapes and equalizers with the error probability as the metric.
