@@ -19,7 +19,7 @@ in this case, just the 2-D discrete-time signal we started with.
 
 A block diagram of the communications system is shown in the figure below. 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/26287301/43984643-daec735a-9ccf-11e8-801e-79e1cfe872db.png">
+  <img src="https://user-images.githubusercontent.com/26287301/44100755-bb12a360-9fb3-11e8-8c67-476a735fc768.png">
 </p>
 
 The system consists of the following blocks:
