@@ -4,3 +4,5 @@
 --- The function names are self explanatory with respect to the various system modules.
 --- While choosing N, take into account the dimensions of the input image.
 --- dummy_Pe and Pe_Analysis are for performance analyses of different pulse shapes and equalizers with the error probability as the metric.
+
+- Let me know if your're interested in the Report and Presentation protected files!
