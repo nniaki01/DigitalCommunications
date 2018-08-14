@@ -2,12 +2,12 @@
 This project investigates digital communications by sending an image over a channel with noise, similar to an actual communication system (e.g. cell phones, HDTV). The system is implemented in Matlab.
 ## Communication System
 We construct a model of a communications system that transmits an image from one place to another, much like digital television (HDTV). 
-It is very common in image processing to break up the image into 8 pixel by 8 pixel blocks and take the discrete cosine transform
-(DCT) of each block – we will provide more information on the DCT later in the description. The DCT frequency information for each block can then be coded, modulated, and transmitted, as will be explained now.
+It is very common in image processing to break up the image into 8 pixel by 8 pixel blocks and take the [discrete cosine transform
+(DCT)](https://www.mathworks.com/help/images/discrete-cosine-transform.html) of each block – we will provide more information on the DCT later in the description. The DCT frequency information for each block can then be coded, modulated, and transmitted, as will be explained now.
 
 A typical communications scheme begins at the transmitter. 
 
-The discrete-time signal x at time step n is quantized, meaning for each n, x[n] is rounded to a binary number of finite precision. That is, for any fixed n, x[n] is a real number mathematically, so it has infinite precision. In order to transmit it digitally, we must, for example, round it to the closest integer from 0 to 255 because we can only transmit finite information digitally. 
+The discrete-time signal <a href="https://www.codecogs.com/eqnedit.php?latex=x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x" title="x" /></a> at time step n is quantized, meaning for each <a href="https://www.codecogs.com/eqnedit.php?latex=n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n" title="n" /></a>, x[n] is rounded to a binary number of finite precision. That is, for any fixed <a href="https://www.codecogs.com/eqnedit.php?latex=n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n" title="n" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=x[n]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x[n]" title="x[n]" /></a> is a real number mathematically, so it has infinite precision. In order to transmit it digitally, we must, for example, round it to the closest integer from 0 to 255 because we can only transmit finite information digitally. 
 
 After quantization, the signal is often coded. In this project, we will not do any coding. 
 
